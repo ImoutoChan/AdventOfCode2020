@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace AdventOfCode2020
+namespace AdventOfCode2020.Services
 {
     internal class InputReader
     {

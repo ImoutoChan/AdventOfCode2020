@@ -1,6 +1,7 @@
 ﻿using System;
+using AdventOfCode2020.Services;
 
-namespace AdventOfCode2020
+namespace AdventOfCode2020.Days
 {
     internal abstract class DayBase
     {

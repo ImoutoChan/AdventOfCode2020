@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace AdventOfCode2020
+namespace AdventOfCode2020.Days
 {
     internal class Day1 : DayBase
     {

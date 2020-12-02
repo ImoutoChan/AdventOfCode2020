@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace AdventOfCode2020
+namespace AdventOfCode2020.Days
 {
     internal class Day2 : DayBase
     {

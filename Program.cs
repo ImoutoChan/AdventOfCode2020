@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using AdventOfCode2020.Days;
 
 namespace AdventOfCode2020
 {

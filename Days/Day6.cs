@@ -15,7 +15,6 @@ namespace AdventOfCode2020.Days
                 .Select(FindUniqueYesAnswers)
                 .Sum(x => x.Count);
 
-
             Console.WriteLine(sumUniqueAnswers);
         }
 

@@ -47,8 +47,6 @@ namespace AdventOfCode2020.Days
                     break;
                 }
             }
-
-            Console.WriteLine("Not Found");
         }
 
         private class Emulator

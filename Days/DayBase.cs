@@ -21,10 +21,10 @@ namespace AdventOfCode2020.Days
         {
             Input = _inputReader.ReadInput(DayNumber);
             
-            Console.Write($"Day {DayNumber}: ");
+            Console.Write($"Day {DayNumber:D2}: ");
             Solve();
 
-            Console.Write($"Day {DayNumber}: ");
+            Console.Write($"Day {DayNumber:D2}: ");
             SolvePart2();
         }
 

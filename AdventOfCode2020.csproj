@@ -7,6 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Update="Input\10.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Input\09.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

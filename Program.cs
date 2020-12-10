@@ -13,6 +13,7 @@ namespace AdventOfCode2020
                 .GetTypes()
                 .Where(x => x.IsAssignableTo(typeof(DayBase)))
                 .Where(x => !x.IsAbstract)
+                .OrderBy(x => int.Parse(x.Name.Substring(3)))
                 .Select(x => Activator.CreateInstance(x))
                 .Cast<DayBase>()
                 .ToList();

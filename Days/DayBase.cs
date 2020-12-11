@@ -11,6 +11,8 @@ namespace AdventOfCode2020.Days
 
         protected string Input { get; private set; }
 
+        protected string[] InputStrings { get; private set; }
+
         protected DayBase()
         {
             _inputReader = new InputReader();
@@ -20,6 +22,7 @@ namespace AdventOfCode2020.Days
         public void Run()
         {
             Input = _inputReader.ReadInput(DayNumber);
+            InputStrings = _inputReader.ReadInputStrings(DayNumber);
             
             Console.Write($"Day {DayNumber:D2}: ");
             Solve();
